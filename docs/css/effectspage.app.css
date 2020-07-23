@@ -1,0 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
+.rwx-animateable-border svg{position:absolute}.rwx-animateable-border svg rect{stroke-width:5px;fill:transparent;stroke:#1342a0;transition:1s all ease}.rwx-animateable-border svg.active rect,.rwx-animateable-border svg:hover rect{stroke-dasharray:50 0;stroke-width:5px;stroke-dashoffset:0;stroke:#e65c00}.rwx-animateable-border.active svg rect{stroke-dasharray:50 0;stroke-width:5px;stroke-dashoffset:0;stroke:#e65c00}
+
+
+/*# sourceMappingURL=effectspage.app.css.map*/
