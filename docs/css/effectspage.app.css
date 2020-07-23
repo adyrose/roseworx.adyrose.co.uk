@@ -2,5 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap);
 .rwx-animateable-border svg{position:absolute}.rwx-animateable-border svg rect{stroke-width:5px;fill:transparent;stroke:#1342a0;transition:1s all ease}.rwx-animateable-border svg.active rect,.rwx-animateable-border svg:hover rect{stroke-dasharray:50 0;stroke-width:5px;stroke-dashoffset:0;stroke:#e65c00}.rwx-animateable-border.active svg rect{stroke-dasharray:50 0;stroke-width:5px;stroke-dashoffset:0;stroke:#e65c00}
 
+.rwx-fade-in{-webkit-animation:fadeIn 1s ease-in forwards;animation:fadeIn 1s ease-in forwards}.rwx-fade-out{-webkit-animation:fadeOut 1s ease-in forwards;animation:fadeOut 1s ease-in forwards}@-webkit-keyframes fadeIn{0%{opacity:0;z-index:-1}1%{z-index:9999}100%{opacity:1;z-index:9999}}@keyframes fadeIn{0%{opacity:0;z-index:-1}1%{z-index:9999}100%{opacity:1;z-index:9999}}@-webkit-keyframes fadeOut{0%{opacity:1;z-index:9999}99%{opacity:0;z-index:9999}100%{opacity:0;z-index:-1}}@keyframes fadeOut{0%{opacity:1;z-index:9999}99%{opacity:0;z-index:9999}100%{opacity:0;z-index:-1}}
+
 
 /*# sourceMappingURL=effectspage.app.css.map*/
